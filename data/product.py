@@ -1,8 +1,5 @@
 import dataclasses
 
-ID_1 = '13'
-PRODUCT_1 = 'Computing and Internet'
-
 
 @dataclasses.dataclass
 class Product:

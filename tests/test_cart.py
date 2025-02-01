@@ -1,10 +1,8 @@
 import allure
 import pytest
 
-import data
 from api.api import remove_product
 from data.product import book_1, book_2, book_3
-
 from pages.cart_page import check_added_product
 from pages.main_page import click_shopping_cart_button
 from tests.conftest import API_URL
